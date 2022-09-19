@@ -5,13 +5,16 @@
 
 package com.velocity;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 
 public class LinkedList1 {
 
 	public static void main(String[] args) {
-	LinkedList<Integer> df=new LinkedList<Integer>();
+	LinkedList<Integer> df =new LinkedList<Integer>();
+	ArrayList<Integer> as =new ArrayList<Integer>();
+	as.add(23);
 	df.add(3);
 	df.add(34);
 	df.add(33);
@@ -29,7 +32,10 @@ public class LinkedList1 {
 	System.out.println(h);	
 	
 	}
-	
+	Iterator<Integer> it = as.iterator();
+	while (it.hasNext()) {
+		System.out.println(it.next());
+	}
+	}
 	}
 
-}
