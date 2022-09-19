@@ -14,8 +14,10 @@ public class ArrayListDemo {
 		sd.add("Atul");
 		
 		Iterator<String> it = sd.iterator();
-		for (String f:sd) {
-			System.out.println(f);
+		while(it.hasNext()) {
+			
+			System.out.println(it.next());
+			
 		}
 		
 		
