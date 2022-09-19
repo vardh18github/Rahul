@@ -19,13 +19,16 @@ public class LinkedList1 {
 	
 	df.add(33);
 	
-	Iterator<Integer> it2 = df.iterator();
+//	Iterator<Integer> it2 = df.iterator();
+//	
+//	while(it2.hasNext()) {
+//		System.out.println(it2.next());
+//	}
+	df.add(345);
+	for(int h:df) {
+	System.out.println(h);	
 	
-	while(it2.hasNext()) {
-		System.out.println(it2.next());
 	}
-	
-	
 	
 	}
 
